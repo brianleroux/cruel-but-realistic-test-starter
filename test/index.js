@@ -13,10 +13,7 @@ fs.readFile(path.resolve(__dirname + '/../index.html'), function (err, buffer) {
     test('checking for ' + className, function (t) {
       t.plan(1);
       var instances = $(className); 
-      if (instances.length > 0) {
-        t.fail();
-      }
-      t.pass();
+      t.equals(instances.length > 0, false, 'It didn\'t contain the class ' + className);
     });
   });  
 });
