@@ -1,0 +1,26 @@
+{
+  "name": "cruel-but-realistic-test-starter",
+  "version": "0.0.0",
+  "description": "Hi",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js | tap-spec",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andywillis/cruel-but-realistic-test-starter.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/andywillis/cruel-but-realistic-test-starter/issues"
+  },
+  "devDependencies": {
+    "cheerio": "~0.17.0",
+    "tape": "~3.0.2",
+    "tap-spec": "~1.0.1",
+    "chai": "~1.9.2",
+    "mocha": "~2.0.1"
+  }
+}
